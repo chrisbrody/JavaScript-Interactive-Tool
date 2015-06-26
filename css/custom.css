@@ -1,23 +1,30 @@
 p {
 	font-size:15px;
 }
-
-#bringback {
+.navbar-header {
+	position: fixed;top:5px;
+	left: 5px;
+}
+.navbar-header i {
+	position:relative;
+	bottom:5px;
+}
+.navbar-header p {
 	font-size:17px;
 	display:inline;
 	position:relative;
-	bottom:7px;
+	bottom:10px;
 }
 
 nav.collapse.navbar-collapse p {
-	display:inline;
-	color:#fff;
-	position:relative;
-	top:5px;
-	left:35%;
-	font-size:30px;
+  color: #fff;
+  position: relative;
+  top: 5px; 
+  font-size: 30px;
+  text-align: center;
+  margin-left: 0px;
+  display: inline-block;
 }
-
 .mainsection {
 	height:100%;
 }
@@ -41,7 +48,7 @@ nav.collapse.navbar-collapse p {
 .solutionbutton {
 	margin:0 auto;
     display:block;
-    background-color:white;
+    background-color:#fff;
     border:1px solid #333;
 }
 
@@ -79,29 +86,6 @@ nav.collapse.navbar-collapse p {
 
 .bodylabel p {
 	margin-bottom:20px;
-}
-
-.bodylabel code {
-	margin-bottom:15px;
-}
-
-.html {
-	overflow: auto;
-	padding: 7px 10px;
-    background-color: #232c31;
-    color:white;
-}
-
-.html .redd {
-	color: #CC6666;
-}
-
-.html .greenn {
-	color: #64FF48;
-}
-
-.html .yelloww {
-	color: #FFFE60;
 }
 
 .fullwidth {
@@ -146,7 +130,7 @@ nav.collapse.navbar-collapse p {
 	border-left: 1px solid #1A2125;
 	border-top: 1px solid #1A2125;
 	border-right: 1px solid #1A2125;
-	padding:24px 15px 0 15px;
+	padding:22px 15px 0 15px;
 	background-color: #141414;
 }
 
@@ -211,54 +195,115 @@ footer .savesubmit {
 	right:20px;
 	top:12px;
 	height:30px;
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#000;
 }
 
 .savesubmit {
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#000;
 }
 
 .resetcode {
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#000;
 }
 
 .fullscreen button:hover {
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#316CE8;
 }
 
 .savesubmit:hover {
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#316CE8;
 }
 
 .resetcode:hover {
-	border:1px solid white;
-	color:white;
+	border:1px solid #fff;
+	color:#fff;
 	background-color:#316CE8;
 }
 
 
 
 
+/*=====================================================================
+
+	INDEX.HTML
+
+=====================================================================*/
+
+#beginLogo {
+	left:0;
+}
+#beginContainer {
+	background-color:#E6E6E6;
+	height:100%;
+	padding: 15em 0;
+}
+#beginContainer > button {
+	border: 1px solid #fff;
+    color: #fff;
+    background-color: #000; 
+    padding: 15px 25px; 
+    font-size:24px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+#beginContainer > button:hover,
+#beginContainer > button:focus {
+	border: 1px solid #000;
+	color: #000;
+    background-color: #fff; 
+}
 
 
+/*=====================================================================
 
+	META.PHP
 
+=====================================================================*/
+.bodylabel ol,
+.bodylabel ul,
+.instructions ol,
+#tabs ol {
+	padding-left: 15px;
+}
+.bodylabel li,
+.extraTips li,
+.instructions li  {
+	font-size: 16px;
+    margin: 5% 0;
+}
+.extraTips {
+	padding: 20px 30px;
+    background-color: #E6E6E6;
+}
+.extraTips span {
+	font-weight: bold;
+}
 
+.ui-state-active {
+	background-color: #000 !important;
+	border: 1px solid #fff !important;
+}
+.indent1 {
+	margin-left:10px;
+}
+.indent2 {
+	margin-left:20px;
+}
 
+li[contenteditable="true"] span{
+	color:#5C5C5C;
+}
+.centersection li {
+	color:#fff;
 
-
-
-
-
-
-
+}

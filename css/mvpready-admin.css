@@ -1930,6 +1930,7 @@ table.table thead .sorting_desc_disabled,
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #141c23;
+  text-align: center;
 }
 .navbar-collapse.in {
   max-height: none;
