@@ -317,10 +317,9 @@ li[contenteditable="true"] span{
 }
 .centersection li {
 	color:#fff;
-
 }
-#meta1Correct,
-#meta1Incorrect {
+.metaCorrect,
+.metaIncorrect {
 	position: absolute;
 	bottom: 5px;
 	right: -2000px;
@@ -329,7 +328,7 @@ li[contenteditable="true"] span{
 	width: 50%;
     text-align: center;
 }
-#meta1Correct a {
+.metaCorrect a {
 	color: #000;
 	font-weight: bold;
 	margin-left: 15px;
@@ -340,4 +339,18 @@ li[contenteditable="true"] span{
 }
 .alert {
 	margin-bottom: 0;
+}
+
+.red {
+	color: #f0e68c !important;
+	font-weight: 500;
+}
+.green {
+	color: limegreen !important;
+}
+.yellow {
+	color: #bdb76b !important;
+}
+.pink {
+	color: #ffa0a0 !important;
 }

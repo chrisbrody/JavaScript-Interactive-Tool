@@ -8,7 +8,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A place to learn important HTML &amp; CSS">
+  <meta name="description" content="A place to practice important HTML &amp; CSS">
   <meta name="keywords" content="Learn HTML, Learn CSS, Interactive Coding Tool">
   <meta name="author" content="Matt Brody &amp; Chris Brody @ Codify Academy">
 
@@ -17,17 +17,17 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
 
   <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/font-awesome.min.css">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
 
   <!-- App CSS -->
-  <link rel="stylesheet" href="../css/mvpready-admin.css">
-  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../../css/mvpready-admin.css">
+  <link rel="stylesheet" href="../../css/custom.css">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="shortcut icon" href="../../favicon.ico">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -45,7 +45,7 @@
       <div class="container-fluid">
 
         <div class="navbar-header">
-          <a href="../index.html" class="navbar-brand navbar-brand-img">
+          <a href="meta2.php" class="navbar-brand navbar-brand-img">
             <i class="fa fa-arrow-circle-o-left fa-2x"></i>
             <p id="bringback">&nbsp;&nbsp;HTML &amp; CSS</p>
 
@@ -144,7 +144,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>Lets begin with something simple, Add a <code>meta</code> tag on line 5, with the attribute of <code>charset</code> and set this equal to <code>uft-8</code></li>
+               <li>Lets add third <code>meta</code> tag on line 6, with the 2 attributes again, <code>name</code> and <code>content</code> set name equal to <code>description</code> and set content equal to <code>a simple website description</code></li>
             </ol>
           </div>
         </div>
@@ -157,7 +157,7 @@
           <br>
           <div class="answer">
             <h4 class="text-center">Copy this code to complete the exercise</h4>
-            <pre class="prettyprint">&lt;meta charset="utf-8"&gt;</pre>
+            <pre class="prettyprint">&lt;meta name="description" content="A place to practice important HTML &amp; CSS skills"&gt;</pre>
           </div>
           <div class="text-center bg-info">
             <a href="http://www.w3schools.com/tags/tag_meta.asp" target="_blank">Find More on Meta Tags</a>
@@ -176,16 +176,19 @@
           </ul>
           <div id="tabs-1">
             <ol>
-              <li>&lt;!doctype&gt;</li>
-              <li>&lt;html&gt;</li>
-              <li><span class="indent1">&lt;head&gt;</span></li>
-              <li><span class="indent2">&lt;title&gt;<span class="title" contenteditable="true">Your Title Here</span>&lt;/title&gt;</span></li>
+              <li><span class="green">&lt;!doctype&gt;</span></li>
+              <li><span  class="red">&lt;html&gt;</span></li>
+              <li class=""><span class="indent1 red">&lt;head&gt;</span></li>
+              <li><span class="indent2 red">&lt;meta</span> <span class="yellow">charset=</span><span class="pink">"utf-8"</span><span class="red">&gt;</span></li>
+              <li><span class="indent2 red">&lt;meta</span> <span class="yellow">name=</span><span class="pink">"author"</span> <span class="yellow">content=</span><span class="pink">"Chris Brody"</span><span class="red">&gt;</span></li>
               <li class="userAnswerMeta" contenteditable="true"><span class="indent2">Write your meta tag here</span></li>
-              <li><span class="indent1">&lt;/head&gt;</span></li>
-              <li><span class="indent1">&lt;body&gt;</span></li>
-              <li><span class="indent2">&lt;h1&gt;Hello World&lt;/h1&gt;</span></li>
-              <li><span class="indent1">&lt;/body&gt;</span></li>
-              <li>&lt;/html&gt;</li>
+              <li><span class="indent2 red">&lt;title&gt;</span><span class="title" contenteditable="true">Your Title Here</span><span class="red">&lt;/title&gt;</span></li>
+              <li><span class="indent2 red">&lt;link</span> <span class="yellow">rel=</span><span class="pink">"stylesheet"</span> <span class="yellow">href=</span><span class="pink">"main.css"</span><span class="red">&gt;</span></li>
+              <li><span class="indent1 red">&lt;/head&gt;</span></li>
+              <li><span class="indent1 red">&lt;body&gt;</span></li>
+              <li><span class="indent2 red">&lt;h1&gt;</span><span>Hello World</span><span class="red">&lt;/h1&gt;</span></li>
+              <li><span class="indent1 red">&lt;/body&gt;</span></li>
+              <li><span class="red">&lt;/html&gt;</span></li>
             </ol>
           </div>
           <div id="tabs-2">
@@ -218,19 +221,19 @@
           </div>
         </div>
         <div class="clearfix"></div>
-        <div id="meta1Correct">
+        <div class="metaCorrect">
           <div class="alert alert-success">
             Good Job! You completed adding a character set to you HTML document
-            <a href="meta2.php/#extraTip"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+            <a href="meta4.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
-        <div id="meta1Incorrect">
+        <div class="metaIncorrect">
           <div class="alert alert-danger">
             Incorrect - Look for syntax errors, and try again, Use the solution if you need.
           </div>
         </div>
         <footer>
-          <button class="savesubmit" onclick="checkMeta1()">Submit Code</button>
+          <button class="savesubmit" onclick="checkMeta3()">Submit Code</button>
           <button class="resetcode" onclick="resetMetaCode1()">Reset Code</button>
         </footer>
       </div><!--end of right section-->
@@ -246,15 +249,15 @@
   <!-- Core JS -->
   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script src="../js/libs/bootstrap.min.js"></script>
+  <script src="../../js/libs/bootstrap.min.js"></script>
 
   <!--[if lt IE 9]>
   <script src="../js/libs/excanvas.compiled.js"></script>
   <![endif]-->
 
 
-
-  <script src="../js/custom.js"></script>
+  <script src="../js/meta3.js"></script>
+  <script src="../../js/custom.js"></script>
 
 
 </body>
