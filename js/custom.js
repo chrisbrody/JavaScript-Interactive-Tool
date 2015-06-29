@@ -38,18 +38,11 @@ function checkMeta1() {
 
 var userEntered = false;
 $('#userAnswerMeta1 span').click(function() {
-	
-	
-
-	if (userEntered === false) {
+		if (userEntered === false) {
 		console.log('user entered false');
 		userEntered = true;
 		console.log(userEntered);
 		$('#userAnswerMeta1 span').text(' ');
-	} else if (userEntered === true) {
-		console.log('user entered true');
-		console.log(userEntered);
-
 	}
 });
 

@@ -180,7 +180,7 @@
               <li id="userAnswerMeta1" contenteditable="true"><span class="indent2">Write your meta tag here</span></li>
               <li><span class="indent1">&lt;/head&gt;</span></li>
               <li><span class="indent1">&lt;body&gt;</span></li>
-              <li></li>
+              <li><span class="indent2">&lt;h1&gt;Hello World&lt;/h1&gt;</span></li>
               <li><span class="indent1">&lt;/body&gt;</span></li>
               <li>&lt;/html&gt;</li>
             </ol>
@@ -191,6 +191,24 @@
         </div>
         <div id="texteditor">
           <div class="screen">
+            <div id="browserView">
+              <div>
+                <div id="controls">
+                  <div class="times"></div>
+                  <div class="minus"></div>
+                  <div class="square-o"></div>
+                </div>
+                <div id="browserNav">
+                  <div id="browserTab">
+                    <span>Your title here</span>
+                  </div><div class="clearfix"></div>
+                </div>
+                
+                <div id="browserContent">
+                  <h1>Hello World</h1>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="fullscreen">
             <button>Full-Screen  <i class="fa fa-arrows-alt"></i></button>
