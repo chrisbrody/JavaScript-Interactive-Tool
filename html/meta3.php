@@ -221,7 +221,7 @@
         <div id="meta1Correct">
           <div class="alert alert-success">
             Good Job! You completed adding a character set to you HTML document
-            <a href="meta2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+            <a href="meta2.php/#extraTip"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
         <div id="meta1Incorrect">

@@ -3,53 +3,51 @@ $(document).ready(function() {
 		$(".answer").slideToggle();
      	$("html, body").animate({scrollTop: $(".answer").offset().top});
 	});
+	$( ".tabs" ).tabs();
 });
 
-$( "#tabs" ).tabs();
+var userEntered = false;
 
 function resetMetaCode1() {
-	console.log('reset');
-	var x = $('#userAnswerMeta1 .indent2');
+	var x = $('.userAnswerMeta .indent2');
 	x.text('Write your meta tag here').css('color', '#5C5C5C');
 	userEntered = false;
-	console.log(userEntered);
+	$('#meta1Incorrect').removeClass('text1');
+	$('#meta1Correct').removeClass('text1');
 }
 
 function checkMeta1() {
-	var userAnswer = $('#userAnswerMeta1 span').text();
+	var userAnswer = $('.userAnswerMeta span').text();
 	var    answer1 = '<meta charset="utf-8">';
 	var    answer2 = "<meta charset='utf-8'>";
 	var    answer3 = '<meta charset="UTF-8">';
 	var    answer4 = "<meta charset='UTF-8'>";
 
-	console.log(userAnswer);
 	if (userAnswer == answer1) {
-		alert('correct');
+		$('#meta1Correct').toggleClass('text1');
 	} else if (userAnswer == answer2) {
-		alert('correct');
+		$('#meta1Correct').toggleClass('text1');
 	} else if (userAnswer == answer3) {
-		alert('correct');
+		$('#meta1Correct').toggleClass('text1');
 	} else if (userAnswer == answer4) {
-		alert('correct');
+		$('#meta1Correct').toggleClass('text1');
 	} else {
-		alert('incorrect');
+		$('#meta1Incorrect').toggleClass('text1');
 	}
 }
 
-var userEntered = false;
-$('#userAnswerMeta1 span').click(function() {
+$('.userAnswerMeta span').click(function() {
 		if (userEntered === false) {
-		console.log('user entered false');
 		userEntered = true;
-		console.log(userEntered);
-		$('#userAnswerMeta1 span').text(' ');
+		$('.userAnswerMeta span').text(' ');
 	}
 });
 
-$('#userAnswerMeta1 span').on('blur' , function() {
-        console.log('blurred');
-    });
-
-$('#userAnswerMeta1').keypress( function() {
+$('.userAnswerMeta').keydown (function() {
 	$('li[contenteditable="true"] span').css('color', '#fff');
+});
+
+$('.title').keyup(function() {
+	var z = $('.title').text();
+    $('.browserTab span').text(z);
 });

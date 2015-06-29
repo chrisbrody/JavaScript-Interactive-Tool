@@ -1,3 +1,6 @@
+ body {
+ 	overflow: hidden;
+ }
 p {
 	font-size:15px;
 }
@@ -76,16 +79,24 @@ nav.collapse.navbar-collapse p {
 	margin-bottom:20px;
 }
 .fullwidth {
-	padding-bottom:15px;
 	background-color:#BEFFCD;
 	border-top: 1px solid #4FFF72;
 	border-bottom: 1px solid #4FFF72;
 }
 .instructions {
-	margin: 20px 30px;
+	padding: 20px 30px;
 }
 .solution {
-	margin: 20px 30px;
+	padding: 20px 0px;
+}
+.solution a {
+	padding:5px;
+	display: inline-block;
+	font-size: 20px;
+}
+.solution .bg-info {
+	position: relative;
+    top: 32px;
 }
 .answer {
 	display:none;
@@ -93,17 +104,17 @@ nav.collapse.navbar-collapse p {
 :focus{
 	outline:none;
 }
-#tabs {
+.tabs {
 	height:43px;
 	background-color:#000000;
 	border-bottom: 1px solid #1A2125;
 }
-#tabs ul {
+.tabs ul {
 	padding-left:15px;
 	padding-top:21px;
 	margin-bottom:0px;
 }
-#tabs .tab {
+.tabs .tab {
 	display:inline;
 	margin-right:10px;
 	color:#CC6666;
@@ -113,16 +124,16 @@ nav.collapse.navbar-collapse p {
 	padding:22px 15px 0 15px;
 	background-color: #141414;
 }
-#tabs .tab a {
+.tabs .tab a {
 	color:#CC6666;
 	font-size:17px;
 	position: relative;
   	bottom: 10px;
 }
-#tabs .tab a:focus {
+.tabs .tab a:focus {
 	outline:none;
 }
-#tabs div {
+.tabs div {
 	margin:10px 30px;
 }
 footer {
@@ -141,7 +152,7 @@ footer button {
 footer .savesubmit {
 	margin-left:50px;
 }
-#texteditor {
+.texteditor {
 	height:50%;
 	width:40%;
 	float:right;
@@ -156,22 +167,22 @@ footer .savesubmit {
 	height:85%;
 	background-color:#fff;
 }
-#browserView {
+.browserView {
 	padding: 5px;
 	height: 100%;
 	
 }
-#browserView > div {
+.browserView > div {
 	margin: 3px 0;
 	border: 3px solid #000;
 	height: 99%;
 }
-#controls {
+.controls {
 	background-color: #5C5C5C;
 	color: white;
 	padding: 3px 5px 7px;
 }
-#controls div {
+.controls div {
 	font-size: 14px;
 	border-radius: 50%;
 	height: 15px;
@@ -190,15 +201,15 @@ footer .savesubmit {
 .square-o {
 	background-color: limegreen;
 }
-#browserNav {
+.browserNav {
 	background-color: lightgrey;
 	padding:7px 5px 0 5px;
 	margin-bottom: 5px;
 }
-#browserTab {
+.browserTab {
 	
 }
-#browserTab span {
+.browserTab span {
 	border: 3px solid #000;
 	border-bottom: transparent;
 	padding: 1px 10px;
@@ -233,7 +244,8 @@ footer .savesubmit {
 	border:1px solid #000;
 	color:#000;
 	background-color:#fff;
-	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
 }
 
 /*=====================================================================
@@ -256,7 +268,8 @@ footer .savesubmit {
     padding: 15px 25px; 
     font-size:24px;
     text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 #beginContainer > button:hover,
 #beginContainer > button:focus {
@@ -273,7 +286,7 @@ footer .savesubmit {
 .bodylabel ol,
 .bodylabel ul,
 .instructions ol,
-#tabs ol {
+.tabs ol {
 	padding-left: 15px;
 }
 .bodylabel li,
@@ -305,4 +318,26 @@ li[contenteditable="true"] span{
 .centersection li {
 	color:#fff;
 
+}
+#meta1Correct,
+#meta1Incorrect {
+	position: absolute;
+	bottom: 5px;
+	right: -2000px;
+	z-index: 100;
+	transition: all 0.5s ease-in-out;
+	width: 50%;
+    text-align: center;
+}
+#meta1Correct a {
+	color: #000;
+	font-weight: bold;
+	margin-left: 15px;
+	text-decoration: underline;
+}
+.text1 {
+	right: 0 !important;
+}
+.alert {
+	margin-bottom: 0;
 }
