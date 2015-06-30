@@ -35,6 +35,10 @@ $('.title').keyup(function() {
 	var z = $('.title').text();
     $('.browserTab span').text(z);
 });
+$('.header1').keyup(function() {
+	var z = $('.header1').text();
+    $('.browserContent h1').text(z);
+});
 // show courses on button click
 function showCourses() {
 	$('#courses').slideToggle();

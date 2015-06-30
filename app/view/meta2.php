@@ -157,7 +157,7 @@
               <li><span class="indent2 red">&lt;link</span> <span class="yellow">rel=</span><span class="pink">"stylesheet"</span> <span class="yellow">href=</span><span class="pink">"main.css"</span><span class="red">&gt;</span></li>
               <li><span class="indent1 red">&lt;/head&gt;</span></li>
               <li><span class="indent1 red">&lt;body&gt;</span></li>
-              <li><span class="indent2 red">&lt;h1&gt;</span><span>Hello World</span><span class="red">&lt;/h1&gt;</span></li>
+              <li><span class="indent2 red">&lt;h1&gt;</span><span class="header1" contenteditable="true">Hello World</span><span class="red">&lt;/h1&gt;</span></li>
               <li><span class="indent1 red">&lt;/body&gt;</span></li>
               <li><span class="red">&lt;/html&gt;</span></li>
             </ol>
@@ -193,13 +193,14 @@
         </div>
         <div class="clearfix"></div>
         <div class="metaCorrect">
-          <div class="alert alert-success">
+          <div class="alert alert-success text-center">
             Good Job! You completed adding a author to you HTML document
+            <br>
             <a href="meta3.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
         <div class="metaIncorrect">
-          <div class="alert alert-danger">
+          <div class="alert alert-danger text-center">
             Incorrect - Look for syntax errors, and try again, Use the solution if you need.
           </div>
         </div>

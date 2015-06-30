@@ -348,7 +348,7 @@ li[contenteditable="true"] span{
 	right: -2000px;
 	z-index: 100;
 	transition: all 0.5s ease-in-out;
-	width: 50%;
+	width: 45%;
     text-align: center;
 }
 .metaCorrect a {
