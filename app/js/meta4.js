@@ -1,17 +1,13 @@
 function checkMeta4() {
-	var userAnswer = $('.userAnswerMeta span').text();
-	var    answer1 = '<meta charset="utf-8">';
-	var    answer2 = "<meta charset='utf-8'>";
-	var    answer3 = '<meta charset="UTF-8">';
-	var    answer4 = "<meta charset='UTF-8'>";
-	console.log(userAnswer);
-	if (userAnswer == answer1) {
-		$('.metaCorrect').toggleClass('text1');
-	} else if (userAnswer == answer2) {
-		$('.metaCorrect').toggleClass('text1');
-	} else if (userAnswer == answer3) {
-		$('.metaCorrect').toggleClass('text1');
-	} else if (userAnswer == answer4) {
+
+	var userAnswerStart = $('.userAnswerMeta span').text().toLowerCase(),
+	    userAnswer = userAnswerStart.replace(/'/g, "\""),
+	    meta = '<meta',
+	    name = 'name="keywords"',
+	    content = 'content="',
+	    end = '">';
+	
+	if ( userAnswer.includes(meta) && userAnswer.includes(name) && userAnswer.includes(content) && userAnswer.includes(end) && userAnswer.length > 34) {
 		$('.metaCorrect').toggleClass('text1');
 	} else {
 		$('.metaIncorrect').toggleClass('text1');

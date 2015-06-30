@@ -57,7 +57,7 @@
 
           <p>Codify Academy</p>
 
-         <!--  <ul class="nav navbar-nav navbar-right">      
+      <!--     <ul class="nav navbar-nav navbar-right">      
 
             <li class="dropdown navbar-profile">
               <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">
@@ -109,15 +109,26 @@
 
         <!--header of left sidebar-->
         <div class="headlabel">
-          <h5>HTML Meta Tag Basics</h5>
-          <button>1/15&nbsp;<i class="fa fa-angle-down"></i></button>
+          <h4>HTML Meta Tag Keywords</h4>
+          <div class="dropdown navbar-right">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Exercises
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="meta1.php">Meta Tags - Charset</a></li>
+              <li><a href="meta2.php">Meta Tags - Author</a></li>
+              <li><a href="meta3.php">Meta Tags - Description</a></li>
+              <li class="active"><a href="meta4.php">Meta Tags - Keywords</a></li>
+            </ul>
+          </div>
         </div>
 
         <!--Main body of left sidebar-->
         <div class="bodylabel">
           <h2>HTML Meta Tags</h2>
           <p>The HTML <code>&lt;meta&gt;</code> Tag, describes metadata within an HTML document: this is usually for use by the browser and search engines.</p>
-          <pre class="prettyprint">&lt;meta charset="utf-8"&gt; <br><br>&lt;meta name="author" content="Chris Brody"&gt;<br><br>&lt;meta name="description" content="A place to practice important HTML &amp; CSS"&gt;<br><br>&lt;meta name="keywords" content="Learn HTML, Learn CSS, Interactive Coding Tool"&gt;</pre>
+          <pre class="prettyprint">&lt;meta name="keywords" content="Learn HTML, Learn CSS, Interactive Coding Tool"&gt;</pre>
           <ol>
               <li>Metadata is data (information) about data.</li>
 
@@ -156,7 +167,7 @@
           <button class="solutionbutton"><h3>Solution</h3></button>
           <br>
           <div class="answer">
-            <h4 class="text-center">Copy this code to complete the exercise</h4>
+            <h4 class="text-center">Write this code on line 7 to complete the exercise</h4>
             <pre class="prettyprint">&lt;meta name="keywords" content="Learn HTML, Learn CSS, Interactive Coding Tool"&gt;</pre>
           </div>
           <div class="text-center bg-info">
@@ -224,7 +235,7 @@
         <div class="clearfix"></div>
         <div class="metaCorrect">
           <div class="alert alert-success">
-            Good Job! You completed adding a character set to you HTML document
+            Good Job! You completed adding keywords to you HTML document
             <a href="../../index.html"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>

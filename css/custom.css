@@ -18,7 +18,10 @@ p {
 	position:relative;
 	bottom:10px;
 }
-nav.collapse.navbar-collapse p {
+nav {
+	text-align: center;
+}
+nav p {
   color: #fff;
   position: relative;
   top: 5px; 
@@ -63,8 +66,9 @@ nav.collapse.navbar-collapse p {
 	padding:12px 30px;
 	border-bottom:1px solid #ACACAC;
 	background-color:#F8F8F8;
+	position: relative;
 }
-.headlabel h5 {
+.headlabel h4 {
 	display:inline;
 }
 .headlabel button {
@@ -277,10 +281,29 @@ footer .savesubmit {
 	color: #000;
     background-color: #fff; 
 }
+#beginContainer > .container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#beginContainer > .container > .col-md-6 > a {
+	font-size: 24px;
+}
+#courses {
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+#courses ol {
+    margin-bottom: 0;
+    list-style-type: upper-roman;
+}
+#courses li {
+	font-size: 20px;
+}
 
 /*=====================================================================
 
-	META1.PHP
+	META.PHP
 
 =====================================================================*/
 .bodylabel ol,
@@ -353,4 +376,14 @@ li[contenteditable="true"] span{
 }
 .pink {
 	color: #ffa0a0 !important;
+}
+.dropdown {
+    position: absolute;
+    display: inline;
+    top: 7px;
+    right: 7px;
+}
+.headlabel .dropdown-menu > li > a:hover {
+	color: #444;
+    background-color: #dbdbdb;
 }
