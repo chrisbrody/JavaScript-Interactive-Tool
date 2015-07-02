@@ -377,6 +377,12 @@ li[contenteditable="true"] span{
 .pink {
 	color: #ffa0a0 !important;
 }
+.blue {
+	color: lightblue;
+}
+.white {
+	color: #fff;
+}
 .dropdown {
     position: absolute;
     display: inline;
@@ -398,4 +404,10 @@ li[contenteditable="true"] span{
 .extraTips span {
 	font-weight: bold;
 }
+.userAnswerConent {
+	color: #5C5C5C;
+}
+.box {
+	color: red;
+	background-color: black;
 }

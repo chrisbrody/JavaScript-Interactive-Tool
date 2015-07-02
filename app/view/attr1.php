@@ -69,14 +69,14 @@
 
         <!--header of left sidebar-->
         <div class="headlabel">
-          <h4>HTML Attributes - Clases</h4>
+          <h4>HTML - Id Attribute</h4>
           <div class="dropdown navbar-right">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Exercises
               <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li class="active"><a href="attr1.php">Attributes - class</a></li>
+              <li class="active"><a href="attr1.php">Attributes - id</a></li>
               <li><a href="attr2.php">Attributes - id</a></li>
               <li><a href="attr3.php">Attributes - href</a></li>
               <li><a href="attr4.php">Attributes - src</a></li>
@@ -116,7 +116,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>Lets start by creating our first id - (these are not repeatable) - to a tag</li>
+              <li>Lets start by adding our first id - (these are not repeatable) - to a <code>h2</code> tag, on line 12 with an <code>id="id_one"</code>, add a few words of content - any words you want</li>
             </ol>
           </div>
         </div>
@@ -128,11 +128,11 @@
           <button class="solutionbutton"><h3>Solution</h3></button>
           <br>
           <div class="answer">
-            <h4 class="text-center">Write this code on line 5 to complete the exercise</h4>
-            <pre class="prettyprint">&lt;meta name="author" content="Chris Brody"&gt;</pre>
+            <h4 class="text-center">Write this code on line 12 to complete the exercise</h4>
+            <pre class="prettyprint">&lt;h2 id="box"&gt;Content Here&lt;/h2&gt;</pre>
           </div>
           <div class="text-center bg-info">
-            <a href="http://www.w3schools.com/tags/tag_meta.asp" target="_blank">Find More on Meta Tags</a>
+            <a href="http://www.w3schools.com/html/html_attributes.asp" target="_blank">Find More on HTML Attributes</a>
           </div>
         </div>
       </div> <!--end of left sidebar-->
@@ -153,19 +153,23 @@
               <li class=""><span class="indent1 red">&lt;head&gt;</span></li>
               <li><span class="indent2 red">&lt;meta</span> <span class="yellow">charset=</span><span class="pink">"utf-8"</span><span class="red">&gt;</span></li>
               <li><span class="indent2 red">&lt;meta</span> <span class="yellow">name=</span><span class="pink">"author"</span> <span class="yellow">content=</span><span class="pink">"Chris Brody"</span><span class="red">&gt;</span></li>
-              <li><span class="indent2 red">&lt;meta</span> <span class="yellow">name=</span><span class="pink">"description"</span> <span class="yellow">content=</span><span class="pink">"A place to practice important HTML &amp; CSS skills"</span><span class="red">&gt;</span></li>
-              <li class="userAnswerMeta" contenteditable="true"><span class="indent2">Write your meta tag here</span></li>
+              <li><span class="indent2 red">&lt;meta</span> <span class="yellow">name=</span><span class="pink">"description"</span> <span class="yellow">content=</span><span class="pink">"A place to practice important HTML &amp; CSS skills"</span><span class="red">&gt;</span></li>          
               <li><span class="indent2 red">&lt;title&gt;</span><span class="title" contenteditable="true">Your Title Here</span><span class="red">&lt;/title&gt;</span></li>
               <li><span class="indent2 red">&lt;link</span> <span class="yellow">rel=</span><span class="pink">"stylesheet"</span> <span class="yellow">href=</span><span class="pink">"main.css"</span><span class="red">&gt;</span></li>
               <li><span class="indent1 red">&lt;/head&gt;</span></li>
               <li><span class="indent1 red">&lt;body&gt;</span></li>
               <li><span class="indent2 red">&lt;h1&gt;</span><span class="header1" contenteditable="true">Hello World</span><span class="red">&lt;/h1&gt;</span></li>
+              <li class="userAnswerAttr"><span class="indent2 userId">&lt;div</span><span class="userAnswerId" contenteditable="true">&gt;</span><span class="userAnswerConent" contenteditable="true">Write Content Here</span><span>&lt;/div&gt;</span></li>
               <li><span class="indent1 red">&lt;/body&gt;</span></li>
               <li><span class="red">&lt;/html&gt;</span></li>
             </ol>
           </div>
           <div id="tabs-2">
-            
+            <ol>
+              <li><span class="green">#box <span class="white">{</span></span></li>
+              <li><span class="indent1 blue">color<span class="white">:</span> red<span class="white">;</span></span></li>
+              <li><span class="white">}</span></li>
+            </ol>
           </div>
         </div>
         <div class="texteditor">
@@ -185,6 +189,7 @@
 
                 <div class="browserContent">
                   <h1>Hello World</h1>
+                  <h2>Write Content Here</h2>
                 </div>
               </div>
             </div>
@@ -196,9 +201,9 @@
         <div class="clearfix"></div>
         <div class="metaCorrect">
           <div class="alert alert-success text-center">
-            Good Job! You completed adding a author to you HTML document
+            Good Job! You completed adding an Id attribute to a div.
             <br>
-            <a href="meta3.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+            <a href="attr2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
         <div class="metaIncorrect">
@@ -208,7 +213,7 @@
         </div>
         <footer>
           <button class="savesubmit" onclick="checkAttr1()">Submit Code</button>
-          <button class="resetcode" onclick="resetMetaCode1()">Reset Code</button>
+          <button class="resetcode" onclick="resetAttrCode1()">Reset Code</button>
         </footer>
       </div><!--end of right section-->
 

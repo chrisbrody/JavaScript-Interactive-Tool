@@ -10,6 +10,11 @@ function checkMeta4() {
 	if ( userAnswer.includes(meta) && userAnswer.includes(name) && userAnswer.includes(content) && userAnswer.includes(end) && userAnswer.length > 34) {
 		$('.metaCorrect').toggleClass('text1');
 	} else {
-		$('.metaIncorrect').toggleClass('text1');
+		$('.metaIncorrect').toggleClass('text1')
+						 .delay(4500)
+						 .queue(function() {
+						 	$(this).removeClass('text1');
+						 	$(this).dequeue();
+						 });
 	}
 }
