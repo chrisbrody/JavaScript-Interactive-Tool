@@ -99,7 +99,7 @@
               <li>The Metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.</li>
             </ol>
         </div>
-        <!-- extra tips and nots -->
+        <!-- extra tips and notes -->
         <div class="extraTips">
           <h3>Extra Tips &amp; Notes</h3>
           <ul class="list-unstyled">

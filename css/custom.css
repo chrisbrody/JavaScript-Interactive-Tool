@@ -387,3 +387,15 @@ li[contenteditable="true"] span{
 	color: #444;
     background-color: #dbdbdb;
 }
+
+
+/*=====================================================================
+
+	ATTR.PHP
+
+=====================================================================*/
+#attrInfo > li > span,
+.extraTips span {
+	font-weight: bold;
+}
+}
