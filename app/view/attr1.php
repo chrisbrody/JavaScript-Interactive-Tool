@@ -55,7 +55,7 @@
 
         <nav role="navigation">
 
-          <p>Codify Academy</p>
+          <p><a href="../../index.html">Codify Academy</a></p>
 
         </nav>
 
@@ -69,7 +69,7 @@
 
         <!--header of left sidebar-->
         <div class="headlabel">
-          <h4>HTML - Id Attribute</h4>
+          <h4>HTML - id Attribute</h4>
           <div class="dropdown navbar-right">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Exercises
@@ -77,7 +77,7 @@
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
               <li class="active"><a href="attr1.php">Attributes - id</a></li>
-              <li><a href="attr2.php">Attributes - id</a></li>
+              <li><a href="attr2.php">Attributes - class</a></li>
               <li><a href="attr3.php">Attributes - href</a></li>
               <li><a href="attr4.php">Attributes - src</a></li>
               <li><a href="attr5.php">Attributes - alt</a></li>
@@ -116,7 +116,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>Lets start by adding our first id - (these are not repeatable) - to a <code>h2</code> tag, on line 12 with an <code>id="id_one"</code>, add a few words of content - any words you want</li>
+              <li>Lets start by adding our first id - (these are not repeatable) - to a <code>section</code> tag, on line 11 with an <code>id="section_wrapper"</code>, add a few words of content for now - anything you want</li>
             </ol>
           </div>
         </div>
@@ -128,8 +128,8 @@
           <button class="solutionbutton"><h3>Solution</h3></button>
           <br>
           <div class="answer">
-            <h4 class="text-center">Write this code on line 12 to complete the exercise</h4>
-            <pre class="prettyprint">&lt;h2 id="box"&gt;Content Here&lt;/h2&gt;</pre>
+            <h4 class="text-center">Write this code on line 11 to complete the exercise</h4>
+            <pre class="prettyprint">&lt;section id="section_wrapper"&gt;Content Here&lt;/section&gt;</pre>
           </div>
           <div class="text-center bg-info">
             <a href="http://www.w3schools.com/html/html_attributes.asp" target="_blank">Find More on HTML Attributes</a>
@@ -158,16 +158,16 @@
               <li><span class="indent2 red">&lt;link</span> <span class="yellow">rel=</span><span class="pink">"stylesheet"</span> <span class="yellow">href=</span><span class="pink">"main.css"</span><span class="red">&gt;</span></li>
               <li><span class="indent1 red">&lt;/head&gt;</span></li>
               <li><span class="indent1 red">&lt;body&gt;</span></li>
-              <li><span class="indent2 red">&lt;h1&gt;</span><span class="header1" contenteditable="true">Hello World</span><span class="red">&lt;/h1&gt;</span></li>
-              <li class="userAnswerAttr"><span class="indent2 userId">&lt;div</span><span class="userAnswerId" contenteditable="true">&gt;</span><span class="userAnswerConent" contenteditable="true">Write Content Here</span><span>&lt;/div&gt;</span></li>
+              <li class="userAnswerAttr"><span class="indent2 userId">&lt;section</span><span class="userAnswerId" contenteditable="true">&gt;</span><span class="userAnswerConent" contenteditable="true">Write Content Here</span><span>&lt;/section&gt;</span></li>
               <li><span class="indent1 red">&lt;/body&gt;</span></li>
               <li><span class="red">&lt;/html&gt;</span></li>
             </ol>
           </div>
           <div id="tabs-2">
             <ol>
-              <li><span class="green">#box <span class="white">{</span></span></li>
-              <li><span class="indent1 blue">color<span class="white">:</span> red<span class="white">;</span></span></li>
+              <li><span class="green">#section_wrapper <span class="white">{</span></span></li>
+              <li><span class="indent1 blue">color<span class="white">:</span> black<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">background<span class="white">:</span> lightgrey<span class="white">;</span></span></li>
               <li><span class="white">}</span></li>
             </ol>
           </div>
@@ -188,8 +188,7 @@
                 </div>
 
                 <div class="browserContent">
-                  <h1>Hello World</h1>
-                  <h2>Write Content Here</h2>
+                  <section>Write Content Here</section>
                 </div>
               </div>
             </div>
@@ -201,7 +200,7 @@
         <div class="clearfix"></div>
         <div class="metaCorrect">
           <div class="alert alert-success text-center">
-            Good Job! You completed adding an Id attribute to a div.
+            Good Job! You completed adding an Id attribute to a section tag.
             <br>
             <a href="attr2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>

@@ -45,7 +45,7 @@
       <div class="container-fluid">
 
         <div class="navbar-header">
-          <a href="../../index.html" class="navbar-brand navbar-brand-img">
+          <a href="attr1.php" class="navbar-brand navbar-brand-img">
             <i class="fa fa-arrow-circle-o-left fa-2x"></i>
             <p id="bringback">&nbsp;&nbsp;HTML &amp; CSS</p>
 
@@ -55,7 +55,7 @@
 
         <nav role="navigation">
 
-          <p>Codify Academy</p>
+          <p><a href="../../index.html">Codify Academy</a></p>
 
         </nav>
 
@@ -69,15 +69,15 @@
 
         <!--header of left sidebar-->
         <div class="headlabel">
-          <h4>HTML Class Attribute</h4>
+          <h4>HTML - class Attribute</h4>
           <div class="dropdown navbar-right">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Exercises
               <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li class="active"><a href="attr1.php">Attributes - class</a></li>
-              <li><a href="attr2.php">Attributes - id</a></li>
+              <li><a href="attr1.php">Attributes - id</a></li>
+              <li class="active"><a href="attr2.php">Attributes - class</a></li>
               <li><a href="attr3.php">Attributes - href</a></li>
               <li><a href="attr4.php">Attributes - src</a></li>
               <li><a href="attr5.php">Attributes - alt</a></li>
@@ -90,7 +90,7 @@
         <div class="bodylabel">
           <h2>HTML Attributes</h2>
           <p>Attributes provide additional information about HTML elements.</p>
-          <pre class="prettyprint">&lt;section id="id_name"&gt;Content&lt;/section&gt;<br><br>&lt;div class="class_name"&gt;Content&lt;/div&gt;<br><br>&lt;a href="http://google.com"&gt;Google&lt;/a&gt;<br><br>&lt;img src="path/image.jpg" alt="image alt"&gt;<br><br><span title="About Paragraph">&lt;p title="About Paragraph"&gt;Content Here&lt;/p&gt;</span></pre>
+          <pre class="prettyprint">&lt;div class="class_name"&gt;Content&lt;/div&gt;<br><br>&lt;a href="http://google.com"&gt;Google&lt;/a&gt;<br><br>&lt;img src="path/image.jpg" alt="image alt"&gt;<br><br><span title="About Paragraph">&lt;p title="About Paragraph"&gt;Content Here&lt;/p&gt;</span></pre>
           <ol id="attrInfo">
             <li>HTML elements can have <span>attributes</span></li>
             <li>Attributes provide <span>additional information</span> about an element</li>
@@ -116,7 +116,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>Lets start by adding our first id - (these are not repeatable) - to a <code>h2</code> tag, on line 12 with an <code>id="id_one"</code>, add a few words of content - any words you want</li>
+              <li>Lets continue by adding a class of <code>box</code>- (these are repeatable) - to both <code>div</code> tags, on line 12  &amp; 13</li>
             </ol>
           </div>
         </div>
@@ -128,8 +128,8 @@
           <button class="solutionbutton"><h3>Solution</h3></button>
           <br>
           <div class="answer">
-            <h4 class="text-center">Write this code on line 12 to complete the exercise</h4>
-            <pre class="prettyprint">&lt;h2 id="box"&gt;Content Here&lt;/h2&gt;</pre>
+            <h4 class="text-center">Write this code on line 12 &amp; 13 to complete the exercise</h4>
+            <pre class="prettyprint">&lt;div class="box"&gt;Content Here&lt;/div&gt;<br>&lt;div class="box"&gt;Content Here&lt;/div&gt;</pre>
           </div>
           <div class="text-center bg-info">
             <a href="http://www.w3schools.com/html/html_attributes.asp" target="_blank">Find More on HTML Attributes</a>
@@ -158,16 +158,26 @@
               <li><span class="indent2 red">&lt;link</span> <span class="yellow">rel=</span><span class="pink">"stylesheet"</span> <span class="yellow">href=</span><span class="pink">"main.css"</span><span class="red">&gt;</span></li>
               <li><span class="indent1 red">&lt;/head&gt;</span></li>
               <li><span class="indent1 red">&lt;body&gt;</span></li>
-              <li><span class="indent2 red">&lt;h1&gt;</span><span class="header1" contenteditable="true">Hello World</span><span class="red">&lt;/h1&gt;</span></li>
-              <li class="userAnswerAttr"><span class="indent2 userId">&lt;div</span><span class="userAnswerId" contenteditable="true">&gt;</span><span class="userAnswerConent" contenteditable="true">Write Content Here</span><span>&lt;/div&gt;</span></li>
+              <li><span class="indent2 red">&lt;section</span> <span class="yellow">id=</span><span class="pink">"section_wrapper"</span><span class="red">&gt;</span></li>
+              <li class="userAnswerAttr"><span class="indent3 userId">&lt;div</span><span class="userAnswerId" contenteditable="true">&gt;</span><span class="userAnswerConent" contenteditable="true">Write Content Here</span><span>&lt;/div&gt;</span></li>
+              <li class="userAnswerAttr2"><span class="indent3 userId2">&lt;div</span><span class="userAnswerId2" contenteditable="true">&gt;</span><span class="userAnswerConent2" contenteditable="true">Write Content Here</span><span>&lt;/div&gt;</span></li>
+              <li><span class="indent2 red">&lt;/section&gt;</span></li>
               <li><span class="indent1 red">&lt;/body&gt;</span></li>
               <li><span class="red">&lt;/html&gt;</span></li>
             </ol>
           </div>
           <div id="tabs-2">
             <ol>
-              <li><span class="green">#box <span class="white">{</span></span></li>
-              <li><span class="indent1 blue">color<span class="white">:</span> red<span class="white">;</span></span></li>
+              <li><span class="green">#section_wrapper <span class="white">{</span></span></li>
+              <li><span class="indent1 blue">color<span class="white">:</span> black<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">background<span class="white">:</span> lightgrey<span class="white">;</span></span></li>
+              <li><span class="white">}</span></li>
+              <li><span class="green">.box <span class="white">{</span></span></li>
+              <li><span class="indent1 blue">width<span class="white">:</span> 50%<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">float<span class="white">:</span> left<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">background<span class="white">:</span> black<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">color<span class="white">:</span> white<span class="white">;</span></span></li>
+              <li><span class="indent1 blue">margin<span class="white">:</span> 0 2%<span class="white">;</span></span></li>
               <li><span class="white">}</span></li>
             </ol>
           </div>
@@ -188,8 +198,10 @@
                 </div>
 
                 <div class="browserContent">
-                  <h1>Hello World</h1>
-                  <h2>Write Content Here</h2>
+                  <section id="section_wrapper" class="section_wrapper">
+                    <div id="one">Write Content Here</div>
+                    <div id="two">More Content Goes Here</div>
+                  </section>
                 </div>
               </div>
             </div>
@@ -201,9 +213,9 @@
         <div class="clearfix"></div>
         <div class="metaCorrect">
           <div class="alert alert-success text-center">
-            Good Job! You completed adding an Id attribute to a div.
+            Good Job! You completed adding an class attribute to two div tags.
             <br>
-            <a href="attr2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+            <a href="attr3.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
         <div class="metaIncorrect">
@@ -212,8 +224,8 @@
           </div>
         </div>
         <footer>
-          <button class="savesubmit" onclick="checkAttr1()">Submit Code</button>
-          <button class="resetcode" onclick="resetAttrCode1()">Reset Code</button>
+          <button class="savesubmit" onclick="checkAttr2()">Submit Code</button>
+          <button class="resetcode" onclick="resetAttrCode2()">Reset Code</button>
         </footer>
       </div><!--end of right section-->
 
@@ -235,7 +247,7 @@
   <![endif]-->
 
 
-  <script src="../js/attr1.js"></script>
+  <script src="../js/attr2.js"></script>
   <script src="../../js/custom.js"></script>
 
 

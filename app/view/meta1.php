@@ -55,9 +55,8 @@
 
         <nav role="navigation">
 
-          <p>Codify Academy</p>
+          <p><a href="../../index.html">Codify Academy</a></p>
 
-          
         </nav>
 
       </div> <!-- /.container -->

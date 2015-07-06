@@ -10,6 +10,7 @@ $(document).ready(function() {
 
 // track if user clicked where they give user answer
 var userEntered = false;
+var userEntered2 = false;
 
 // reset code for chosen exercise
 function resetMetaCode1() {
@@ -39,6 +40,7 @@ $('.header1').keyup(function() {
 	var z = $('.header1').text();
     $('.browserContent h1').text(z);
 });
+
 // show courses on button click
 function showCourses() {
 	$('#courses').slideToggle();

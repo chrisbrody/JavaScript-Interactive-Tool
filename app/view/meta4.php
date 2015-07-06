@@ -53,11 +53,11 @@
         </div> <!-- /.navbar-header -->
 
 
-        <nav class="collapse navbar-collapse" role="navigation">
+        <nav role="navigation">
 
-          <p>Codify Academy</p>
+          <p><a href="../../index.html">Codify Academy</a></p>
 
-      <!--     <ul class="nav navbar-nav navbar-right">      
+          <!-- <ul class="nav navbar-nav navbar-right">      
 
             <li class="dropdown navbar-profile">
               <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">

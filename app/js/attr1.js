@@ -3,15 +3,14 @@ function checkAttr1() {
 
 	var userAnswerStart = $('.userAnswerAttr').text().toLowerCase(),
 	    userAnswer = userAnswerStart.replace(/'/g, "\""),
-	    opening = '<div',
-	    id = 'id="box">',
-	    closing = '</div>';
-	    console.log(userAnswer);
-	if ( userAnswer.includes(opening) && userAnswer.includes(id) && userAnswer.includes(closing) && userAnswer.length > 22 ) {
+	    opening = '<section',
+	    id = 'id="section_wrapper">',
+	    closing = '</section>';
+	if ( userAnswer.includes(opening) && userAnswer.includes(id) && userAnswer.includes(closing) && userAnswer.length > 40 ) {
 		$('.metaCorrect').toggleClass('text1');
 	} else {
 		$('.metaIncorrect').toggleClass('text1')
-						 .delay(4500)
+						 .delay(3000)
 						 .queue(function() {
 						 	$(this).removeClass('text1');
 						 	$(this).dequeue();
@@ -29,10 +28,12 @@ function resetAttrCode1() {
 	$('.metaIncorrect').removeClass('text1');
 	$('.metaCorrect').removeClass('text1');
 }
-// append h2 content to h2 view
+
+
+// append section content to section view
 $('.userAnswerConent').keyup(function() {
 	var z = $(this).text();
-    $('.browserContent h2').text(z);
+    $('.browserContent section').text(z);
 });
 // clear content if user didnt enter answer area yet
 $('.userAnswerConent').click(function() {
@@ -45,14 +46,14 @@ $('.userAnswerConent').click(function() {
 $('.userAnswerConent').keydown (function() {
 	$(this).css('color', '#fff');
 });
-// add id of box to view when user addes and id of box to ttheir div
+// add id of wrapper to view when user addes an id of wrapper to their section tag
 $('.userAnswerId').keyup( function() {
 	var x = $(this).text();
 	for( var i = 0; i < x.length; i++ ) {
-		console.log(x);
-		if( x.includes('id="box"') ) {
-			$('.browserContent h2').addClass('box');
+		if( x.includes('id="section_wrapper"') ) {
+			$('.browserContent section').addClass('section_wrapper');
+		} else {
+			$('.browserContent section').removeClass('section_wrapper');
 		}
 	}
 });
-
