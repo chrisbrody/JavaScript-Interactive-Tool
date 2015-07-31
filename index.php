@@ -37,24 +37,16 @@
 
 <body>
 
+
   <div id="wrapper">
 
     <header class="navbar navbar-inverse" role="banner">
 
       <div class="container-fluid">
 
-        <!-- <div class="navbar-header">
-          <a href="index.html" class="navbar-brand navbar-brand-img">
-            <i class="fa fa-arrow-circle-o-left fa-2x"></i>
-            <p id="bringback">&nbsp;&nbsp;HTML & CSS</p>
-
-          </a>
-        </div>  --><!-- /.navbar-header -->
-
-
         <nav class="collapse navbar-collapse" role="navigation">
 
-          <p id="beginLogo"><a href="index.html">Codify Academy</a></p>
+          <p id="beginLogo"><a href="index.php">Codify Academy</a></p>
 
         </nav>
 
@@ -79,7 +71,7 @@
             <div id="courses" class="col-md-6 col-md-offset-3">
               <ol class="text-left">
                 <li>
-                  <a href="app/view/meta1.php">Meta Tags</a>
+                  <a href="app/view/meta1/meta1.php">Meta Tags</a>
                 </li>
                 <li>
                   <a href="app/view/attr1.php">HTML Attributes</a>
@@ -95,19 +87,4 @@
 
   </div> <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Core JS -->
-  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script src="js/libs/bootstrap.min.js"></script>
-
-  <!--[if lt IE 9]>
-  <script src="js/libs/excanvas.compiled.js"></script>
-  <![endif]-->
-
-  <script src="js/custom.js"></script>
-
-
-</body>
-</html>
+  <?php include('footer.php') ?>
