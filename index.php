@@ -62,7 +62,7 @@
 
         <h3>You will learn a lot about HTML and CSS which isn't covered in other interactive tutorials!</h3>
         <br>
-        <button id="beginTutorial" onclick="window.location.assign('app/view/meta1.php')">Begin Now</button>
+        <button id="beginTutorial" onclick="window.location.assign('app/view/meta1/meta1.php')">Begin Now</button>
         <div class="container">
           <div class="col-md-6 col-md-offset-3">
             <hr>
@@ -74,7 +74,7 @@
                   <a href="app/view/meta1/meta1.php">Meta Tags</a>
                 </li>
                 <li>
-                  <a href="app/view/attr1.php">HTML Attributes</a>
+                  <a href="app/view/attr1/attr1.php">HTML Attributes</a>
                 </li>
               </ol>
             </div>

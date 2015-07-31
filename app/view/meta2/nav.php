@@ -5,7 +5,7 @@
       <div class="container-fluid">
 
         <div class="navbar-header">
-          <a href="meta1.php" class="navbar-brand navbar-brand-img">
+          <a href="../meta1/meta1.php" class="navbar-brand navbar-brand-img">
             <i class="fa fa-arrow-circle-o-left fa-2x"></i>
             <p id="bringback">&nbsp;&nbsp;HTML &amp; CSS</p>
 
