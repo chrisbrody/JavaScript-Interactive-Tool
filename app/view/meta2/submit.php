@@ -4,7 +4,7 @@
         <div class="alert alert-success text-center">
           Good Job! You completed adding a author to you HTML document
           <br>
-          <a href="../meta3.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+          <a href="../meta3/meta3.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
         </div>
       </div>
       <div class="metaIncorrect">

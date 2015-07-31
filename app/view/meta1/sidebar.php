@@ -9,10 +9,10 @@
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li class="active"><a href="meta1.php">Meta Tags - Charset</a></li>
-          <li><a href="meta2.php">Meta Tags - Author</a></li>
-          <li><a href="meta3.php">Meta Tags - Description</a></li>
-          <li><a href="meta4.php">Meta Tags - Keywords</a></li>
+          <li class="active"><a href="../meta1/meta1.php">Meta Tags - Charset</a></li>
+          <li><a href="../meta2/meta2.php">Meta Tags - Author</a></li>
+          <li><a href="../meta3/meta3.php">Meta Tags - Description</a></li>
+          <li><a href="../meta4/meta4.php">Meta Tags - Keywords</a></li>
         </ul>
       </div>
     </div>

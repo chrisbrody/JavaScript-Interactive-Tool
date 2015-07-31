@@ -1,9 +1,11 @@
+
+        
       <div class="clearfix"></div>
       <div class="metaCorrect">
         <div class="alert alert-success text-center">
-          Good Job! You completed adding a author to you HTML document
+          Good Job! You completed HTML Meta Tag Exercises
           <br>
-          <a href="../meta2/meta2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+          <a href="../../../index.php"> Start Another Section <i class="fa fa-angle-double-right"></i></a>
         </div>
       </div>
       <div class="metaIncorrect">
@@ -12,7 +14,7 @@
         </div>
       </div>
       <footer>
-        <button class="savesubmit" onclick="checkMeta1()">Submit Code</button>
+        <button class="savesubmit" onclick="checkMeta4()">Submit Code</button>
         <button class="resetcode" onclick="resetMetaCode1()">Reset Code</button>
       </footer>
     </div><!--end of right section-->
@@ -35,11 +37,10 @@
   <![endif]-->
 
   <!-- Meta 1 JavaScript -->
-  <script src="../../js/meta1.js"></script>
+  <script src="../../js/meta4.js"></script>
   <!-- Custom JavaScript -->
   <script src="../../../js/custom.js"></script>
 
 
 </body>
 </html>
-
