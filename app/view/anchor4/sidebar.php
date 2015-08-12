@@ -4,17 +4,17 @@
 
         <!--header of left sidebar-->
         <div class="headlabel">
-          <h4>HTML - Anchor External</h4>
+          <h4>HTML - Anchor Colors</h4>
           <div class="dropdown navbar-right">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Exercises
               <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li class="active"><a href="../anchor1/anchor1.php">Anchor - External</a></li>
+              <li><a href="../anchor1/anchor1.php">Anchor - External</a></li>
               <li><a href="../anchor2/anchor2.php">Anchor - Local</a></li>
               <li><a href="../anchor3/anchor3.php">Anchor - Images</a></li>
-              <li><a href="../anchor4/anchor4.php">Anchor - Colors</a></li>
+              <li class="active"><a href="../anchor4/anchor4.php">Anchor - Colors</a></li>
               <li><a href="../anchor5/anchor5.php">Anchor - Target</a></li>
             </ul>
           </div>
