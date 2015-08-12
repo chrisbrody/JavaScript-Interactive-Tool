@@ -4,7 +4,7 @@
         <div class="alert alert-success text-center">
           Good Job! You completed adding an Id attribute to a section tag.
           <br>
-          <a href="../attr2/attr2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+          <a href="../anchor2/anchor2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
         </div>
       </div>
       <div class="metaIncorrect">
@@ -13,14 +13,15 @@
         </div>
       </div>
       <footer>
-        <button class="savesubmit" onclick="checkAttr1()">Submit Code</button>
-        <button class="resetcode" onclick="resetAttrCode1()">Reset Code</button>
+        <button class="savesubmit" onclick="checkAnchor1()">Submit Code</button>
+        <button class="resetcode" onclick="resetAnchorCode1()">Reset Code</button>
       </footer>
     </div><!--end of right section-->
 
   </div><!--end of main section-->
 
 </div> <!-- /#wrapper -->
+
 
 
 <!-- Footer -->
@@ -37,11 +38,10 @@
   <![endif]-->
 
   <!-- Meta 1 JavaScript -->
-  <script src="../../js/attr1.js"></script>
+  <script src="../../js/anchor1.js"></script>
   <!-- Custom JavaScript -->
   <script src="../../../js/custom.js"></script>
 
 
 </body>
 </html>
-

@@ -35,7 +35,7 @@
   <![endif]-->
 
   <!-- Meta 1 JavaScript -->
-  <script src="../../js/meta1.js"></script>
+  <script src="../../js/anchor1.js"></script>
   <!-- Custom JavaScript -->
   <script src="../../../js/custom.js"></script>
 

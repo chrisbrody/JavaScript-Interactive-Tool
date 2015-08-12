@@ -22,10 +22,10 @@
       <h2>HTML Meta Tags</h2>
       <p>The HTML <code>&lt;meta&gt;</code> Tag, describes metadata within an HTML document: this is usually for use by the browser and search engines.</p>
       <pre class="prettyprint">&lt;meta charset="utf-8"&gt; <br><br>&lt;meta name="author" content="Chris Brody"&gt;<br><br>&lt;meta name="description" content="A place to practice important HTML &amp; CSS"&gt;<br><br>&lt;meta name="keywords" content="Learn HTML, Learn CSS, Interactive Coding Tool"&gt;</pre>
-      <ol>
-          <li>Metadata is data (information) about data.</li>
+      <ol id="attrInfo">
+          <li>Metadata is <span>data</span> (information) about the document.</li>
 
-          <li>The &lt;meta&gt; tag provides Metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.</li>
+          <li>The <code>&lt;meta&gt;</code> tag provides Metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.</li>
 
           <li>Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.</li>
 
