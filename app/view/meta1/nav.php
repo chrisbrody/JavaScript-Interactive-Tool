@@ -14,7 +14,7 @@
 
       <nav role="navigation">
 
-        <p><a href="../../index.php">Codify Academy</a></p>
+        <p><a href="../../../index.php">Codify Academy</a></p>
 
       </nav>
 

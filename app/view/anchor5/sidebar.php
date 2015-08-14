@@ -89,7 +89,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>The first thing to do is choose a place to make this anchor go somewhere. Make the link go to <code>www.google.com</code>, and add the content in betwwen the tags e.x. "Google"</li>
+              <li>The last thing we will do, add a <code>target</code> attribute and set it equal to <code>_blank</code>. This will make the anchor open a new tab when clicked</li>
             </ol>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <br>
           <div class="answer">
             <h4 class="text-center">Write this code on line 11 to complete the exercise</h4>
-            <pre class="prettyprint">&lt;a href="www.google.com"&gt;Google&lt;/a&gt;</pre>
+            <pre class="prettyprint">&lt;a href="www.google.com" target="_blank"&gt;Google&lt;/a&gt;</pre>
           </div>
           <div class="text-center bg-info">
             <a href="http://www.w3schools.com/html/html_links.asp" target="_blank">Find More on HTML Linking</a>

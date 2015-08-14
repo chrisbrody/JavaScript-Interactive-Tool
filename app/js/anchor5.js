@@ -4,9 +4,10 @@ function checkAnchor5() {
 	    userAnswer = userAnswerStart.replace(/'/g, "\""),
 	    tag = '<a',
 	    href = 'href="www.google.com"',
+	    target = 'target="_blank"',
 	    end = '>';
 	
-	if ( userAnswer.includes(tag) && userAnswer.includes(href) && userAnswer.includes(end) && userAnswer.length > 33) {
+	if ( userAnswer.includes(tag) && userAnswer.includes(href) && userAnswer.includes(target) && userAnswer.includes(end) && userAnswer.length > 45) {
 		$('.metaCorrect').toggleClass('text1');
 	} else {
 		$('.metaIncorrect').toggleClass('text1')

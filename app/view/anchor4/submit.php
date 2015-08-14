@@ -4,7 +4,7 @@
         <div class="alert alert-success text-center">
           Good Job! You completed adding an Id attribute to a section tag.
           <br>
-          <a href="../anchor2/anchor2.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
+          <a href="../anchor5/anchor5.php"> Continue to the Next Task <i class="fa fa-angle-double-right"></i></a>
         </div>
       </div>
       <div class="metaIncorrect">
@@ -38,7 +38,7 @@
   <![endif]-->
 
   <!-- Meta 1 JavaScript -->
-  <script src="../../js/anchor1.js"></script>
+  <script src="../../js/anchor4.js"></script>
   <!-- Custom JavaScript -->
   <script src="../../../js/custom.js"></script>
 
