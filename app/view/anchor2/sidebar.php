@@ -89,7 +89,7 @@
           <div class="instructions">
             <h3>Instructions</h3>
             <ol>
-              <li>The first thing to do is choose a place to make this anchor go somewhere. Make the link go to <code>www.google.com</code>, and add the content in betwwen the tags e.x. "Google"</li>
+              <li>This time we will use a local anchor, to link to a ID found in your current HTML page. Add a <code>href</code> attribute to the anchor equal to <code>#about</code>, this will move the page down to where ever this ID is found</li>
             </ol>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <br>
           <div class="answer">
             <h4 class="text-center">Write this code on line 11 to complete the exercise</h4>
-            <pre class="prettyprint">&lt;a href="www.google.com"&gt;Google&lt;/a&gt;</pre>
+            <pre class="prettyprint">&lt;a href="#about"&gt;About&lt;/a&gt;</pre>
           </div>
           <div class="text-center bg-info">
             <a href="http://www.w3schools.com/html/html_links.asp" target="_blank">Find More on HTML Linking</a>

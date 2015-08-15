@@ -37,7 +37,7 @@
   <script src="../js/libs/excanvas.compiled.js"></script>
   <![endif]-->
 
-  <!-- Meta 1 JavaScript -->
+  <!-- Anchor 1 JavaScript -->
   <script src="../../js/anchor4.js"></script>
   <!-- Custom JavaScript -->
   <script src="../../../js/custom.js"></script>

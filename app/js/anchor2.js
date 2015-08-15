@@ -3,10 +3,10 @@ function checkAnchor2() {
 	var userAnswerStart = $('.userAnswerAnchor').text().toLowerCase(),
 	    userAnswer = userAnswerStart.replace(/'/g, "\""),
 	    tag = '<a',
-	    href = 'href="www.google.com"',
+	    href = 'href="#about"',
 	    end = '>';
 	
-	if ( userAnswer.includes(tag) && userAnswer.includes(href) && userAnswer.includes(end) && userAnswer.length > 33) {
+	if ( userAnswer.includes(tag) && userAnswer.includes(href) && userAnswer.includes(end) && userAnswer.length > 25) {
 		$('.metaCorrect').toggleClass('text1');
 	} else {
 		$('.metaIncorrect').toggleClass('text1')
